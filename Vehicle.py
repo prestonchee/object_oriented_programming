@@ -17,6 +17,6 @@ rover_object.color = "purple"
 rover_object.num_wheels = 4
 rover_object.speed = 25
 
-print(bug_object.speed)
-print(turtle_object.speed)
-print(rover_object.speed)
+print('This vehicle is',bug_object.color, 'and is able to drive', bug_object.speed, 'mph.')
+print('This vehicle is',turtle_object.color, 'and is able to drive', turtle_object.speed, 'mph.')
+print('This vehicle is',rover_object.color, 'and is able to drive', rover_object.speed, 'mph.')
